@@ -1,11 +1,8 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	/*for(let i=0;i<s1.length()-s2.length();i++){
-		if(s1.subtring(i,i+s2.length()+1)==(s2)){
-			console.log(i);
-		}
-	}*/
-	return s1.indexOfIgnoreCase(s2);
+	const lowerS1=s1.toLowerCase();
+	const lowerS2=s2.toLowerCase();
+	return lowerS1.indexOf(lowerS2);
 }
 
 // Please do not change the code below
